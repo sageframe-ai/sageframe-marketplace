@@ -1,0 +1,6 @@
+{
+  "Bellwether": {
+    "type": "http",
+    "url": "https://bellwether.mcp.sageframe.ai/mcp"
+  }
+}

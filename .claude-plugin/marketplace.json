@@ -1,0 +1,18 @@
+{
+  "name": "sageframe",
+  "owner": {
+    "name": "Sageframe"
+  },
+  "plugins": [
+    {
+      "name": "bellwether",
+      "source": "./bellwether",
+      "description": "The Bellwether Laws as a transparent, inspectable business-reasoning partner (Veritas): declare intent, assumptions, unknowns, and facts before any recommendation, grounded in the named Laws."
+    },
+    {
+      "name": "wwjd",
+      "source": "./wwjd",
+      "description": "The WWJD Principles (drawn from the recorded teachings of Jesus, NKJV) as a transparent, inspectable, faith-grounded reasoning partner."
+    }
+  ]
+}
