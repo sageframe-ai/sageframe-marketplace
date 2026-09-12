@@ -1,5 +1,6 @@
 {
   "name": "wwjd",
+  "displayName": "WWJD",
   "description": "The WWJD Principles (drawn from the recorded teachings of Jesus, NKJV) as a transparent, inspectable, faith-grounded reasoning partner.",
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
