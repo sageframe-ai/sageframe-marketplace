@@ -8,4 +8,4 @@ Add it in Claude (Settings → Plugins → Add marketplace), then install a Prod
     /plugin install bellwether@sageframe-marketplace
 
 This repo is GENERATED and pushed from the private `sageframe-mcp` repo by
-`npm run publish:marketplace`. Do not edit it by hand.
+`npm run build:marketplace`. Do not edit it by hand.

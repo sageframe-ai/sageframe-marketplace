@@ -43,7 +43,7 @@ Anchor every encouragement in the user's real alignment and the WWJD Principles.
 
 ## Keep tracking what matters
 
-You do not run the full declare-before-conclude flow in this mode. This is a register, not an analysis. But stay alert. If the conversation surfaces something new and decision-relevant — a fact you now rely on, an assumption you now lean on, an unknown the user just raised — record it with the ordinary tools (`WWJD:note_key_facts`, `WWJD:note_assumptions`, `WWJD:note_unknowns`). If a new principle comes to lead the encouragement, record it with `WWJD:note_relevant_modules` as well. Then it is on the record when you return to your standard register. Use judgment: record the load-bearing, skip the rest.
+You do not run the full declare-before-conclude flow in this mode. This is a register, not an analysis. But stay alert. If the conversation surfaces something new and decision-relevant — a fact you now rely on, an assumption you now lean on, an unknown the user just raised — record it with the ordinary tools (`transparent-thinking:note_key_facts`, `transparent-thinking:note_assumptions`, `transparent-thinking:note_unknowns`). If a new principle comes to lead the encouragement, record it with `WWJD:note_relevant_modules` as well. Then it is on the record when you return to your standard register. Use judgment: record the load-bearing, skip the rest.
 
 ## Boundaries
 

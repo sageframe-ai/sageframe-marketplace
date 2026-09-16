@@ -2,5 +2,9 @@
   "WWJD": {
     "type": "http",
     "url": "https://wwjd.mcp.sageframe.ai/mcp"
+  },
+  "transparent-thinking": {
+    "type": "http",
+    "url": "https://mcp.sageframe.ai/mcp"
   }
 }
