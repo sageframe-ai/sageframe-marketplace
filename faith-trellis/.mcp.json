@@ -1,7 +1,7 @@
 {
-  "WWJD": {
+  "FaithTrellis": {
     "type": "http",
-    "url": "https://wwjd.mcp.sageframe.ai/mcp"
+    "url": "https://faithtrellis.sageframe.ai/mcp"
   },
   "transparent-thinking": {
     "type": "http",
