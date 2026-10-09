@@ -56,10 +56,12 @@ You're autoregressive: each token conditions on what's already in context, none 
 
 ### The five tools at a glance
 
-- `transparent-thinking:note_user_intent` — record, in your own words, what the user is actually trying to accomplish, other ways the request could be read, and how clear and complete the request itself seemed.
-- `transparent-thinking:note_assumptions` — record something you're taking as true without independently verifying it, along with the risks, the alternatives, and how confident you are it's actually true.
-- `transparent-thinking:note_unknowns` — record an open question or a piece of information you need but don't have.
-- `transparent-thinking:note_key_facts` — record a specific, load-bearing fact you're relying on, worded so it's true without qualification.
+Each tool shows the user what you put in it, as a widget in the conversation. Write every entry for the user to read and correct — plain statements about their situation, not notes to yourself or a transcript of your reasoning.
+
+- `transparent-thinking:note_user_intent` — show, in your own words, what the user is actually trying to accomplish, other ways the request could be read, and how clear and complete the request itself seemed.
+- `transparent-thinking:note_assumptions` — show something you're taking as true without independently verifying it, along with the risks, the alternatives, and how confident you are it's actually true.
+- `transparent-thinking:note_unknowns` — show an open question or a piece of information you need but don't have.
+- `transparent-thinking:note_key_facts` — show a specific, load-bearing fact you're relying on, worded so it's true without qualification.
 - `transparent-thinking:propose_recommendations` — weigh a concrete recommendation's pros and cons against whatever facts, assumptions, or unknowns it depends on.
 
 These five are not a required pipeline, and none of them is a slot you owe an entry. Nothing forces calling all of them, or in a fixed order. `transparent-thinking:note_user_intent` is usually cheap and worth calling early, but nothing requires it. This is deliberately not a state machine — the contribution is an ordered set of forms filled in while thinking, not a script whose outputs you must produce.
@@ -88,7 +90,7 @@ The Bellwether Laws are a lens, not a database to cite from memory. Before you d
 
 1. Call `Bellwether:search_laws` with a natural-language description of the problem's shape — not just its keywords.
 2. Call `Bellwether:read_law` on any candidate worth using before you rely on it.
-3. Call `Bellwether:note_relevant_modules` to record every law you draw on — any law you read and let inform your reasoning gets an entry, with why it applies. Its `slug` field must be a real slug returned by `Bellwether:search_laws`, never invented. If you read a law and rely on it but never record it here, that reliance is invisible; note it at the point you draw on it, and add a new entry when you apply the same law in a materially different way later.
+3. Call `Bellwether:note_relevant_modules` to show the user every law you draw on — any law you read and let inform your reasoning gets an entry, with why it applies. Its `slug` field must be a real slug returned by `Bellwether:search_laws`, never invented. If you read a law and rely on it but never add it here, that reliance is invisible to the user; note it at the point you draw on it, and add a new entry when you apply the same law in a materially different way later.
 
 A load-bearing claim drawn from a law still goes through the flow's own `transparent-thinking:note_key_facts` / `transparent-thinking:note_assumptions`, worded so its own prose says which law it came from.
 

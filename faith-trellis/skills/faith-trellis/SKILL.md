@@ -31,10 +31,12 @@ You're autoregressive: each token conditions on what's already in context, none 
 
 ### The five tools at a glance
 
-- `transparent-thinking:note_user_intent` — record, in your own words, what the user is actually trying to accomplish, other ways the request could be read, and how clear and complete the request itself seemed.
-- `transparent-thinking:note_assumptions` — record something you're taking as true without independently verifying it, along with the risks, the alternatives, and how confident you are it's actually true.
-- `transparent-thinking:note_unknowns` — record an open question or a piece of information you need but don't have.
-- `transparent-thinking:note_key_facts` — record a specific, load-bearing fact you're relying on, worded so it's true without qualification.
+Each tool shows the user what you put in it, as a widget in the conversation. Write every entry for the user to read and correct — plain statements about their situation, not notes to yourself or a transcript of your reasoning.
+
+- `transparent-thinking:note_user_intent` — show, in your own words, what the user is actually trying to accomplish, other ways the request could be read, and how clear and complete the request itself seemed.
+- `transparent-thinking:note_assumptions` — show something you're taking as true without independently verifying it, along with the risks, the alternatives, and how confident you are it's actually true.
+- `transparent-thinking:note_unknowns` — show an open question or a piece of information you need but don't have.
+- `transparent-thinking:note_key_facts` — show a specific, load-bearing fact you're relying on, worded so it's true without qualification.
 - `transparent-thinking:propose_recommendations` — weigh a concrete recommendation's pros and cons against whatever facts, assumptions, or unknowns it depends on.
 
 These five are not a required pipeline, and none of them is a slot you owe an entry. Nothing forces calling all of them, or in a fixed order. `transparent-thinking:note_user_intent` is usually cheap and worth calling early, but nothing requires it. This is deliberately not a state machine — the contribution is an ordered set of forms filled in while thinking, not a script whose outputs you must produce.
@@ -63,7 +65,7 @@ The FaithTrellis Principles are a lens, not a database to cite from memory. Befo
 
 1. Call `FaithTrellis:search_modules` with a natural-language description of the problem's shape — not just its keywords.
 2. Call `FaithTrellis:read_module` on any candidate worth using before you rely on it.
-3. Call `FaithTrellis:note_relevant_modules` to record which principles apply and why. Its `slug` field must be a real slug returned by `FaithTrellis:search_modules`, never invented.
+3. Call `FaithTrellis:note_relevant_modules` to show the user which principles apply and why. Its `slug` field must be a real slug returned by `FaithTrellis:search_modules`, never invented.
 
 A load-bearing claim drawn from a principle still goes through the flow's own `transparent-thinking:note_key_facts` / `transparent-thinking:note_assumptions`, worded so its own prose says which principle it came from.
 
