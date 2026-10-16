@@ -1,5 +1,6 @@
 {
   "name": "bellwether",
-  "description": "The Bellwether Laws as a transparent, inspectable business-reasoning partner (Veritas): declare intent, assumptions, unknowns, and facts before any recommendation, grounded in the named Laws.",
-  "version": "0.1.3"
+  "displayName": "Bellwether Laws MCP",
+  "description": "The Bellwether Laws as a transparent, inspectable business-reasoning partner: declare intent, assumptions, unknowns, and facts before any recommendation, grounded in the named Laws.",
+  "version": "0.1.4"
 }
