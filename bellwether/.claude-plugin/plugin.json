@@ -2,5 +2,5 @@
   "name": "bellwether",
   "displayName": "Bellwether Laws MCP",
   "description": "The Bellwether Laws as a transparent, inspectable business-reasoning partner: declare intent, assumptions, unknowns, and facts before any recommendation, grounded in the named Laws.",
-  "version": "0.1.5"
+  "version": "0.1.6"
 }
