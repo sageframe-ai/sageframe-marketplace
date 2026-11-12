@@ -7,7 +7,7 @@
     {
       "name": "bellwether",
       "source": "./bellwether",
-      "displayName": "Bellwether Laws MCP",
+      "displayName": "VERITAS: The Bellwether AI Connector",
       "description": "The Bellwether Laws as a transparent, inspectable business-reasoning partner: declare intent, assumptions, unknowns, and facts before any recommendation, grounded in the named Laws."
     },
     {
